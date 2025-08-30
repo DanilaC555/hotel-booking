@@ -35,10 +35,10 @@ Hotel Booking (Laravel)
 git clone <ваш-репозиторий> hotel-booking
 cd hotel-booking
 
-# PHP-зависимости
+PHP-зависимости
 composer install
 
-# Скопировать env и сгенерировать ключ приложения
+Скопировать env и сгенерировать ключ приложения
 cp .env.example .env
 php artisan key:generate
 
@@ -61,7 +61,7 @@ DB_USERNAME=root
 DB_PASSWORD=
 
 3) Почта (email-уведомления)
-# Я использовал яндекс можно другого SMTP:
+Я использовал яндекс можно другого SMTP:
 
 -MAIL_MAILER=smtp
 -MAIL_HOST=smtp.yandex.ru
@@ -88,7 +88,7 @@ php artisan migrate:fresh --seed
 -пользователя: user@example.com / password
 -несколько отелей, комнат, удобств, а также бронирования без пересечений
 
-# Можно изменить под ваши удобства файл DatabaseSeeder.php и файлы в директории factories
+Можно изменить под ваши удобства файл DatabaseSeeder.php и файлы в директории factories
 
 ⚠️ Чтобы письма реально приходили — замените email пользователя в DatabaseSeeder на ваш рабочий адрес (или создайте нового пользователя через регистрацию). В сидере есть комментарий-намеки, куда подставить.
 
