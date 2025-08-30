@@ -1,4 +1,4 @@
-Hotel Booking (Laravel)
+#Hotel Booking (Laravel)
 
 Онлайн-платформа для бронирования отелей: поиск, просмотр, бронь, email-уведомления. Проект сделан на Laravel с использованием Blade-компонентов, Breeze (аутентификация), Tailwind CSS и Alpine.js.
 
